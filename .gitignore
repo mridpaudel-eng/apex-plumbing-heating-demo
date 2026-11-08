@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Vite and production build output
+.vite/
+dist/
+coverage/
+
+# Environment files and local-only configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials, private keys and certificates
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Logs and generated TypeScript build metadata
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Operating system files
+.DS_Store
+Thumbs.db
